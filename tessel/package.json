@@ -1,0 +1,21 @@
+{
+  "name": "temperature-tracker",
+  "version": "0.1.0",
+  "description": "A simple temperature tracker that sends the current temperature in a defined interval via MQTT message",
+  "main": "tracker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "www.github.com/tessel/t2-cli",
+  "keywords": [
+    "Tessel",
+    "Climate",
+    "Temperature",
+    "Tracker"
+  ],
+  "license": "MIT",
+  "readme": "A simple temperature tracker that sends the current temperature in a defined interval via MQTT message",
+  "dependencies": {
+    "mqtt": "^2.3.1"
+  }
+}
